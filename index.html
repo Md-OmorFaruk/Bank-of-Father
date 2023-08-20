@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Baap ka Bank</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+      <!--second font-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+      
+      <!-- Style -->
+      
+      <style>
+            .font {
+                 font-family: 'Caprasimo', cursive;
+            }
+            .font1{
+                  font-family: 'Creepster', cursive;
+            }
+      </style>
+      
+
+</head>
+<body>
+      <header>
+
+      </header>
+      <main>
+            <section>
+                  <h1 class="text-5xl font-medium text-center pt-24 pb-6 font">Welcome to your <span class="text-green-600">Baap er bank.</span> </h1>
+            </section>
+            <section class=" bg-sky-400 p-20 w-9/12 mx-auto">
+                  <h3 class="text-4xl font-normal font text-red-600 ">Please Login</h3>
+                  <input class="font text-xl rounded-2xl py-2 px-7 w-9/12 block mt-5 mb-5 " type="email" name="" id="user-email" placeholder="Your Email Address">
+                  <input class="font text-xl rounded-2xl py-2 px-7 w-9/12 block "  type="password" name="" id="user-pass" placeholder="Your password">
+                  <button class="font py-5 px-10 bg-white mt-5 rounded-full hover:bg-red-600 hover:text-white" id="submit">Submit</button>
+           
+            </section> 
+
+      </main>
+      <footer>
+
+      </footer>
+      <script>
+            document.getElementById('submit').addEventListener('click', function () {
+                        //for mail
+                        const userEmail = document.getElementById('user-email');
+                        const email = userEmail.value;
+                        //for pass
+                        const userPass = document.getElementById('user-pass');
+                        const pass = userPass.value;
+
+                        //condition
+                        if (email === 'omor4498@gmail.com' && pass === '1234') {
+                              window.location.href = 'Bank.html';
+                        }
+                        else {
+                              alert('Invalid User');
+                        }
+                  });
+
+      </script>
+      
+</body>
+</html>

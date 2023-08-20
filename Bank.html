@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Baap ka Bank</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+      <!--second font-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+      <!-- Style -->
+
+      <style>
+            .font {
+                  font-family: 'Caprasimo', cursive;
+            }
+
+            .font1 {
+                  font-family: 'Creepster', cursive;
+            }
+      </style>
+
+
+</head>
+
+<body>
+      <header>
+
+      </header>
+      <main>
+            <section>
+                  <section>
+                        <h1 class="text-5xl font-medium text-center pt-10 pb-10 font">Banking System in <span class="text-green-600">Baap er
+                                    bank.</span> </h1>
+                  </section>
+                  <section>
+                        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 w-9/12 mx-auto">
+                              <div class="bg-green-500 p-16">
+                                    <h1 class="text-4xl font m-1">Deposit</h1>
+                                    <h2 class="text-3xl font m-1 text-white">$ <span id="dollar">20</span></h2>
+                              </div>
+                              <div class="bg-cyan-500 p-16">
+                                    <h1 class="text-4xl font m-1">Withdraw</h1>
+                                    <h2 class="text-3xl font m-1 text-white">$ <span id="Wdoller">20</span></h2>
+                              </div>
+                              <div class="bg-orange-500 p-16">
+                                    <h1 class="text-4xl font m-1">Balance</h1>
+                                    <h2 class="text-3xl font m-1 text-white">$ <span id="Bdoller">20</span></h2>
+                              </div>
+                        </div>
+                  </section>
+                  <section>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 w-9/12 mx-auto mt-10">
+                              <div class="bg-blue-600 p-16">
+                                    <h1 class="text-4xl font m-1">Please Deposit</h1>
+                                    <input class="font text-base rounded-2xl py-2 px-7 w-9/12 block mt-5 " type="text" name="" id="d-money"
+                                    placeholder="$ Amount to Deposit">
+                                    <button class="font py-2 px-4 bg-white mt-5 rounded-xl hover:bg-red-600 hover:text-white" id="deposit">Deposit</button>
+                              </div>
+                              <div class="bg-blue-400 p-16">
+                                    <h1 class="text-4xl font m-1">Please Withdraw</h1>
+                                    <input class="font text-base rounded-2xl py-2 px-7 w-9/12 block mt-5 " type="text" name="" id="w-money"
+                                          placeholder="$ Amount to withdraw">
+                                    <button class="font py-2 px-4 bg-white mt-5 rounded-xl hover:bg-red-600 hover:text-white" id="withdraw">Withdraw</button>
+                              </div>
+                        </div>
+                  </section>
+            </section>
+
+      </main>
+      <footer>
+
+      </footer>
+      <script src="jav.js"></script>
+
+</body>
+
+</html>
